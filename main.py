@@ -1,11 +1,7 @@
-import findArea.areaOfShapes
-import findArea.areaOfObjects
+import findArea.areaOfShapes as shape
+import findArea.areaOfObjects as object
 
-findArea.areaOfShapes.circle(7)
-findArea.areaOfObjects.cube(5)
-
-
-
-
+shape.circle(7)
+object.cube(2)
 
 
