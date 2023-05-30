@@ -1,3 +1,4 @@
+# findArea is the package name
 import findArea.areaOfShapes as shape
 import findArea.areaOfObjects as object
 
