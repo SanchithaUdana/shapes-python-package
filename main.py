@@ -1,6 +1,7 @@
 # findArea is the package name
-import findArea.areaOfShapes as shape
-import findArea.areaOfObjects as object
+from findArea import areaOfShapes as shape
+from findArea import areaOfObjects as object
 
 shape.circle(7)
-object.cube(2)
+shape.square(12, 45)
+object.cube(3)
