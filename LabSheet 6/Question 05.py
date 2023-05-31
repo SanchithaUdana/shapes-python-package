@@ -8,8 +8,8 @@ def findLowerUpper(newWord):
             noLower += 1
         else:
             pass
-    print("no of uppercase letters : ", noUpper)
-    print("no of lowercase letters : ", noLower)
+    print("Number of uppercase letters : ", noUpper)
+    print("Number of lowercase letters : ", noLower)
 
 
 findLowerUpper("Application Laboratory")
