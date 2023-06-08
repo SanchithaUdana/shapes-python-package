@@ -34,3 +34,4 @@ def trapezium(length_of_parallel_sides, height):
 def ellipse(a, b):
     area = math.pi * a * b
     return area
+
