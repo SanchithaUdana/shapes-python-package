@@ -1,4 +1,5 @@
 import math
+from findArea import areaOfShapes as shapes
 
 
 def cube(length):
@@ -6,7 +7,7 @@ def cube(length):
     return area
 
 
-def rectangular_prism(length, width, height):
+def rectangularPrism(length, width, height):
     area = (2((width * length) + (height * length) + (height * width)))
     return area
 
@@ -28,4 +29,9 @@ def sphere(radius):
 
 def hemisphere(radius):
     area = 3 * math.pi * radius * radius
+    return area
+
+
+def trianglePrism(base, height, length, width):
+    area = (2 * shapes.triangle(base, height)) + (3 * shapes.rectangle(length, width))
     return area

@@ -11,3 +11,15 @@ def rectangleTriangle(recLength, recWidth, triangleBase, triangleHeight):
     return totalArea
 
 
+def hemiCircleSquire(radius, length):
+    area = shape.hemiCircle(radius) + shape.square(length)
+    return area
+
+
+def rectangleTrapezium(length, width, length_of_parallel_sides, height):
+    area = shape.rectangle(length, width) + shape.trapezium(length_of_parallel_sides, height)
+    return area
+
+
+
+

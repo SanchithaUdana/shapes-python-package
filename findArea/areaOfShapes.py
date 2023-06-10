@@ -6,8 +6,13 @@ def circle(radius):
     return area
 
 
-def square(length, width):
-    area = length * width
+def hemiCircle(radius):
+    area = (math.pi * radius * radius)/2
+    return area
+
+
+def square(length):
+    area = length * length
     return area
 
 
