@@ -35,3 +35,12 @@ def ellipse(a, b):
     area = math.pi * a * b
     return area
 
+
+def kite(diagonal1, diagonal2):
+    area = (diagonal1 * diagonal2) / 2
+    return area
+
+
+def rhombus(diagonal1, diagonal2):
+    area = (diagonal1 * diagonal2) / 2
+    return area
