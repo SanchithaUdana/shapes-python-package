@@ -21,5 +21,10 @@ def rectangleTrapezium(length, width, length_of_parallel_sides, height):
     return area
 
 
+def squareEllipse(a, b, length):
+    area = shape.square(length) + shape.ellipse(a,b)
+    return area
+
+
 
 
