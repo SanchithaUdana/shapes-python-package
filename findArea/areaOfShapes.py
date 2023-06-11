@@ -2,17 +2,17 @@ import math
 
 
 def circle(radius):
-    area = math.pi * radius * radius
+    area = round((math.pi * radius * radius), 2)
     return area
 
 
 def hemiCircle(radius):
-    area = (math.pi * radius * radius)/2
+    area = round(((math.pi * radius * radius)/2), 2)
     return area
 
 
 def square(length):
-    area = length * length
+    area = round((length * length))
     return area
 
 

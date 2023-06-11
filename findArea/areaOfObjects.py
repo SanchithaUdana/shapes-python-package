@@ -37,3 +37,7 @@ def trianglePrism(base, height, length, width):
     return area
 
 
+def squareBasePyramid(baseLength, slantLength):
+    area = round((baseLength * (baseLength + slantLength)))
+    return area
+

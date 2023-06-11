@@ -19,7 +19,10 @@ def cylinderCone(radius, height, slant_height):
     return area
 
 
-
+def cubePyramid(baseLength, slantLength):
+    total = round((object.squareBasePyramid(baseLength, slantLength)) + object.cube(baseLength))
+    area = total - (2 * baseLength * baseLength)
+    return area
 
 
 
