@@ -5,7 +5,6 @@ from findArea import areaOfCombinedShapes as comShape
 from findArea import areaOfCombinedObject as comObj
 
 print(shape.circle(7))
-print(shape.square(12, 45))
-print(shape.trapezium(34, 5))
-print(comShape.squareTriangle(4, 3, 7, 1))
-
+print(object.Cylinder(7, 12))
+print(comShape.squareTriangle(4, 5, 3))
+print(comObj.cylinderCone(7, 8, 4))

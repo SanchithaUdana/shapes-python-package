@@ -49,3 +49,5 @@ def kite(diagonal1, diagonal2):
 def rhombus(diagonal1, diagonal2):
     area = (diagonal1 * diagonal2) / 2
     return area
+
+

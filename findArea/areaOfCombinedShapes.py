@@ -1,8 +1,8 @@
 from findArea import areaOfShapes as shape
 
 
-def squareTriangle(squireLength, squireWidth, base, height):
-    totalArea = (shape.square(squireLength, squireWidth) + shape.triangle(base, height))
+def squareTriangle(squireLength, base, height):
+    totalArea = (shape.square(squireLength * squireLength) + shape.triangle(base, height))
     return totalArea
 
 
@@ -24,3 +24,5 @@ def rectangleTrapezium(length, width, length_of_parallel_sides, height):
 def squareEllipse(a, b, length):
     area = shape.square(length) + shape.ellipse(a, b)
     return area
+
+

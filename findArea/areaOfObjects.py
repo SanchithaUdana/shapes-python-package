@@ -8,17 +8,17 @@ def cube(length):
 
 
 def rectangularPrism(length, width, height):
-    area = (2((width * length) + (height * length) + (height * width)))
+    area = (2 * ((width * length) + (height * length) + (height * width)))
     return area
 
 
 def Cylinder(radius, height):
-    area = 2 * math.pi * radius(radius + height)
+    area = (2 * math.pi * radius * height) + (2 * math.pi * radius * radius)
     return area
 
 
 def cone(radius, slant_height):
-    area = math.pi * radius(radius + slant_height)
+    area = (math.pi * radius * (radius + slant_height))
     return area
 
 
@@ -35,3 +35,5 @@ def hemisphere(radius):
 def trianglePrism(base, height, length, width):
     area = (2 * shapes.triangle(base, height)) + (3 * shapes.rectangle(length, width))
     return area
+
+

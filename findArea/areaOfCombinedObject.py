@@ -1,3 +1,4 @@
+import math
 from findArea import areaOfObjects as object
 from findArea import areaOfShapes as shape
 
@@ -12,5 +13,9 @@ def cubeSphere(length, radius):
     return area
 
 
+def cylinderCone(radius, height, slant_height):
+    total = object.Cylinder(radius, height) + object.cone(radius, slant_height)
+    area = total - (2 * math.pi * radius * radius)
+    return area
 
 
